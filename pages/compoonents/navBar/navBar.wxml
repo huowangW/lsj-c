@@ -1,0 +1,7 @@
+
+
+<view class="nav-bar">
+    <view class="img">
+        <image src=".././iconfont/shangyiyehoutuifanhui-yuankuang.svg">
+    </view>
+</view>

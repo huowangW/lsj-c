@@ -16,6 +16,7 @@ Page({
     })
   },
   onLoad: function () {
+    var that = this
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -42,6 +43,14 @@ Page({
         }
       })
     }
+    wx.getSystemInfo({
+      success: (result) => {
+        // console.log(result)
+        if(result.model=="iPhone XS Max"||result.model=="iPhone X"||result.model=="iPhone XR"||result.model=="iPhone XS"){
+          console.log(123)
+        }
+      },
+    })
   },
   getUserInfo: function(e) {
     console.log(e)
