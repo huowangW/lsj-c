@@ -1,7 +1,2 @@
-
-
-<view class="nav-bar">
-    <view class="img">
-        <image src=".././iconfont/shangyiyehoutuifanhui-yuankuang.svg">
-    </view>
-</view>
+<!--pages/compoonents/navBar/navBar.wxml-->
+<text>pages/compoonents/navBar/navBar.wxml</text>
