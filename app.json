@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/compoonents/navBar/navBar"
+    "components/navBar/navBar"
   ],
   "window": {
     "navigationStyle": "custom"

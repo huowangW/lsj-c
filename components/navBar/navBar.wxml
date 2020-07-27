@@ -1,0 +1,9 @@
+<!--components/navBar/navBar.wxml-->
+<view class="naviga">
+  <view class="img">
+   <image src="{{toastText}}"></image>
+  </view>
+  <view>
+   <text>{{title}}</text>
+  </view>
+</view>
