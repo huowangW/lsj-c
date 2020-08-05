@@ -1,0 +1,6 @@
+
+<view class="nav-com" style="margin-top:{{navPadding}}rpx">
+  <view class="back-icon"><image bindtap="touser" class="img" src="{{imgUrl}}"></image></view>
+  <view class="text"> <text>{{navText}}</text></view>
+  <view class="fill"></view>
+</view>

@@ -1,0 +1,6 @@
+<view>
+  <nav-bar nav-text="我的" img-url="/iconfont/shangyiyehoutuifanhui.svg"></nav-bar>
+</view>
+<view class="container">
+<text>i is user page</text>
+</view>

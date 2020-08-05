@@ -1,0 +1,5 @@
+.nav-com { display: flex; justify-content: space-around; }
+.nav-com .back-icon {width: 206rpx;}
+.nav-com .back-icon .img { width: 80rpx; height: 80rpx;}
+.nav-com .fill {width: 206rpx;}
+.nav-com .text {padding-top: 10rpx;}
