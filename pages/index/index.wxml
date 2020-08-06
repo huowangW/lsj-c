@@ -5,7 +5,7 @@
 <view class="container">
   <view class="car-list">
     <view class="title-text">
-      <view><text>小面包车</text></view>
+      <view class="on"><text>小面包车</text></view>
       <view><text>中面包车</text></view>
       <view><text>小货车</text></view>
       <view><text>中货车</text></view>

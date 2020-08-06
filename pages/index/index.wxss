@@ -1,2 +1,4 @@
+.container {color: #666;}
 .container .car-list {height: 100%;}
-.car-list .title-text { display: flex; justify-content: space-around; width: auto;}
+.car-list .title-text { display: flex; justify-content: space-around; width: 1300rpx; border-bottom: #333;}
+.container .car-list .title-text .on {color: rgb(247, 225, 23); }
