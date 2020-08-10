@@ -1,4 +1,28 @@
-.container {color: #666;}
-.container .car-list {height: 100%;}
-.car-list .title-text { display: flex; justify-content: space-around; width: 1300rpx; border-bottom: #333;}
-.container .car-list .title-text .on {color: rgb(247, 225, 23); }
+.container {
+    color: #666;
+}
+
+.container .car-list {
+    height: 100%;
+}
+
+.car-list .title-text {
+    display: flex;
+    justify-content: space-around;
+    width: 1300rpx;
+    border-bottom: 2rpx solid #999;
+}
+
+.container .car-list .title-text .on {
+    color: rgb(247, 225, 23);
+}
+
+.container .car-list .title-text .on::before {
+    content: '';
+    display: block;
+    height: 4rpx;
+    background-color: rgb(247, 225, 23);
+    position: relative;
+    bottom: -50rpx;
+    left: 0;
+}
